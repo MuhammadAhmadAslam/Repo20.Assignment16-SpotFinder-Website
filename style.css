@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'roboto';
+    src: url(Fonts/Roboto_Condensed/RobotoCondensed-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'salsa';
+    src: url(Fonts/Salsa/Salsa-Regular.ttf);
+}
+@font-face {
+    font-family: 'ubuntu';
+    src: url(Fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 14px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.089);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#left img{
+    width: 70px;
+    height: 70px;
+    /* margin-left: 60px; */
+}
+#left{
+    display: flex;
+    align-items: center;
+}
+#left h3{
+    font-family: 'ubuntu';
+}
+#center a{
+    text-decoration: none;
+    padding: 20px;
+    color: #007A62;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#right{
+    display: flex;
+    /* padding: 10px; */
+}
+#right img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+#right #b1{
+    border: none;
+    color: #007A62;
+    margin-left: 13px;
+    font-size: large;
+    background-color: transparent;
+}
+#right #b2{
+    color: white;
+    background-color: red;
+    border: none;
+    width: 110px;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-size: large;
+}
+#input1{
+    background: url(images/location.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position: left;
+}
+select{
+    background: url(images/vehicle.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
