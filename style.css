@@ -10,6 +10,10 @@
     font-family: 'ubuntu';
     src: url(Fonts/Ubuntu/Ubuntu-Regular.ttf);
 }
+@font-face {
+    font-family: 'poppins';
+    src: url(Fonts/Poppins/Poppins-Regular.ttf);
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -140,7 +144,16 @@ input[type=date]::-webkit-datetime-edit-year-field {
 #main{
     display: flex;
     margin-top: 150px;
-}
+    display: flex;
+    margin-top: 150px;
+    max-width: 1200px; /* Adjust the value based on your design */
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+    /* Apply max-width to other container elements as needed */
+    
+
 #cm1{
     margin-left: 150px;
 }
@@ -149,13 +162,13 @@ input[type=date]::-webkit-datetime-edit-year-field {
     
 }
 #span1{
-    font-family: 'ubuntu';
+    font-family: 'poppins';
     color: #475467;
     font-size: 170%;
 }
 #span2{
     color: #E23744;
-    font-family: 'ubuntu';
+    font-family: 'poppins';
     font-size: 170%;
 }
 #cm1 h4{
@@ -166,54 +179,58 @@ input[type=date]::-webkit-datetime-edit-year-field {
 #main2{
     width: 100%;
     display: flex;
-    padding-left: 190px;
+    /* padding-left: 190px; */
+    align-items: center;
+    justify-content: center;
 }
 #md1{
-    width: 25%;
-    height: 400px;
+    width: 30%;
+    height: 460px;
     border: 1px solid rgba(0, 0, 0, 0.171);
-   margin-left: 20px;
+    margin-left: 20px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding-top: 240px;
+    /* padding-top: 240px; */
     align-items: center;  
-    background: url(images/cityparking.jpg) no-repeat;
+    /* background: url(images/cityparking.jpg) no-repeat; */
     background-size: contain;
 }
 #md2{
-    width: 25%;
-    height: 400px;
+    width: 30%;
+    height: 460px;
     border: 1px solid rgba(0, 0, 0, 0.171);
    margin-left: 20px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    padding-top: 240px;
+    /* padding-top: 240px; */
     align-items: center;  
-    background: url(images/truck.jpg) no-repeat;
-    background-size: contain;
+    /* background: url(images/truck.jpg) no-repeat; */
+    /* background-size: contain; */
 }
 
 #md3{
-    width: 25%;
-    height: 400px;
+    width: 30%;
+    height: 460px;
     border: 1px solid rgba(0, 0, 0, 0.171);
-   margin-left: 20px;
-    box-sizing: border-box;
+    margin-left: 20px;
+    /* box-sizing: border-box; */
     display: flex;
     flex-direction: column;
-    padding-top: 240px;
+    /* padding-top: 240px; */
     align-items: center;  
-    background: url(images/airportparking.jpg) no-repeat;
-    background-size: 600px 230px;
+    /* background: url(images/airportparking.jpg) no-repeat; */
+    
 }
 #md3{
-    width: 25%;
-    height: 400px;
+    width: 30%;
+    height: 460px;
     margin-left: 20px;
     box-sizing: border-box;
     border: 1px solid rgba(0, 0, 0, 0.171);
+    display: flex;
+    flex-direction: column;
 }
 #md1 img{
     width: 100%;
@@ -222,29 +239,96 @@ input[type=date]::-webkit-datetime-edit-year-field {
     width: 100%;
 }
 #md3 img{
-    width: 84%;
+    width: 98%;
 }
 #md1 h2{
     text-align: center;
-    font-family: 'roboto';
+    font-family: 'poppins';
     color: #475467;
+    margin-top: 40px;
 }
 #md2 h2{
     text-align: center;
-    font-family: 'roboto';
+    font-family: 'poppins';
     color: #475467;
+    margin-top: 40px;
 }#md3 h2{
     text-align: center;
-    font-family: 'roboto';
+    font-family: 'poppins';
     color: #475467;
+    margin-top: 40px;
 }
 .button1{
     background-color: red;
     color: white;
-    width: 180px;
-    border-radius: 20px;
-    height: 30px;
-    font-size: large;
+    width: 210px;
+    border-radius: 30px;
+    height: 50px;
+    font-size: x-large;
     margin-top: 50px;
+    font-family: 'poppins';
     
 }
+
+#main3{
+    background-color: red;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin: 60px;
+    height: 800px;
+}
+#main3 h1 , h4{
+    color: white;
+    font-family: 'poppins';
+}
+#main4{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+    
+}
+
+#m4-1 , #m4-2 , #m4-3{
+    background-color: white;
+    width: 25%;
+    height: 360px;
+    border-radius: 20px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'poppins';
+}
+#m4-1 img , #m4-2 img , #m4-3 img{
+    width: 60%;
+}
+.div-text{
+    color: black;
+    /* margin-top: 40px; */
+    text-align: justify;
+    font-weight: lighter;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#m4-2 , #m4-3{
+    margin-left: 10px;
+}
+#md1, #md2, #md3 {
+    width: 25%;
+    /* ... other styles ... */
+}
+
+.button1 {
+    width: 70%; /* Adjust the percentage based on your design */
+}
+.div-text {
+ 
+    width: 90%; 
+}
+.div-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
