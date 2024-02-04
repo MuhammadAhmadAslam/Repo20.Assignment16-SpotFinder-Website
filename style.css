@@ -20,6 +20,10 @@ nav{
     align-items: center;
     padding-top: 14px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.089);
+    position: fixed;
+    width: 100%;
+    position: absolute;
+    top: 0;    
 }
 *{
     margin: 0;
@@ -377,10 +381,10 @@ input[type=date]::-webkit-datetime-edit-year-field {
     width: 60%;
 }
 .div-text{
-    color: black;
+    color: black !important;
     /* margin-top: 40px; */
     text-align: justify;
-    font-weight: lighter;
+    font-weight: 400;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -753,3 +757,30 @@ input[type=date]::-webkit-datetime-edit-year-field {
     border: none;
     /* filter: brightness(100%); */
 }
+#main9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table a{
+    text-decoration: none;
+}
+#footer{
+    text-align: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.418);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#email{
+    border: 1px solid rgba(0, 0, 0, 0.527) !important;
+}
+
+
+
+
+
+
+
+
+
+
