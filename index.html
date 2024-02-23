@@ -10,6 +10,8 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <link
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
@@ -18,9 +20,10 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" data-aos="fade-up"
+    data-aos-anchor-placement="center-center">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
+          <a class="navbar-brand" href="#"><img src="images/logo.png" alt="img" style="width: 40px; height: 40px;"> Spot Finder</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -72,7 +75,7 @@
 
 <div id="main">
 
-    <div id="cm1">
+    <div id="cm1" data-aos="flip-right">
         <h1><span id="span1">Parking</span> <span id="span2">Simplified</span></h1>
         <h4>Easily Find a Parking Space now!</h4>
         <form action="">
@@ -91,7 +94,9 @@
     </form>
     <button id="b3">Search Parkinng spaces</button>
     </div>
-    <div id="cm2">
+    <div id="cm2"  data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
         <img src="images/mainpic1.png" alt="img">
     </div>
 </div>
@@ -100,17 +105,17 @@
     <h1 style="color: #3A3748; font-family: 'poppins'; text-align: center; margin-top: 90px; font-size: 220%;">We are everywhere!</h1>
     <h4 style="color: brown; font-family: 'poppins'; text-align: center; margin-top: 20px; margin-bottom: 30px; font-size: large;">Find a new home for your car.</h4>
     <div id="main2">
-    <div id="md1">
+    <div id="md1"  data-aos="zoom-in-up">
         <img src="images/cityparking.jpg" alt="img" style="margin-top: 0px;">
         <h2>City Parking</h2>
         <button class="button1">Find Parking</button>
     </div>
-    <div id="md2">
+    <div id="md2"  data-aos="zoom-in-up">
         <img src="images/truck.jpg" alt="img">
         <h2>Semi Truck</h2>
         <button class="button1">Find Parking</button>
     </div>
-    <div id="md3">
+    <div id="md3"  data-aos="zoom-in-up">
         <img src="images/cityparking.jpg" alt="img" >
         <h2>Airport Parking</h2>
         <button class="button1">Find Parking</button>
@@ -126,19 +131,19 @@
     <h1 style="text-align: center; font-size: 290%; padding-top: 100px;">Why Spot Finder?</h1>
     <h4 style="text-align: center; margin-top: 20px; font-size: 150%;">We understand the pain for finding the right spot where your car feels home. <br> Handicap friendly spots, diligent customer support, we aim to comfort you <br> with nearest parking spot!</h4>
 <div id="main4">
-    <div id="m4-1">
+    <div id="m4-1" data-aos="zoom-in-left">
         <img src="images/time.png" alt="img">
         <h2 class="div-text">Its Fast</h2>
         <h4 class="div-text"><br> Our new app makes finding spots in <br> not more than 3 steps. We're building <br> the largest network of parking spots!</h4>
     </div>
 
-    <div id="m4-2">
+    <div id="m4-2" data-aos="zoom-in-left">
         <img src="images/smile.png" alt="img">
         <h2 class="div-text">It's easy</h2>
         <h4 class="div-text"><br>We aim to keep you hooked to our <br> services with an experience excellence <br> team!</h4>
     </div>
 
-    <div id="m4-3">
+    <div id="m4-3" data-aos="zoom-in-left">
         <img src="images/wallet.png" alt="img">
         <h2 class="div-text">It's affordable</h2>
         <h4 class="div-text"><br>Find affordable spots and spend your days stress-free while your car is <br> parked with us.</h4>
@@ -154,25 +159,25 @@
 
 <h1 style="color: #476480; text-align: center; font-family: 'poppins';">Airport Parking</h1>
 <div id="main5">
-    <div id="m5-1">
+    <div id="m5-1" data-aos="zoom-in-left">
         <img src="images/daysinn.jpg" alt="img"><br><br>
         <h2>Days Inn by Wyn</h2><br>   
         <h5>Days Inn by Wyndham hotel </h5><br><br>
         <button class="button2">Book Now</button>
     </div>
-    <div id="m5-2">
+    <div id="m5-2" data-aos="zoom-in-left">
         <img src="images/daysinn.jpg" alt="img"><br><br>
         <h2>Days Inn by Wyn</h2><br>
         <h5>Days Inn by Wyndham hotel </h5><br><br>
         <button class="button2">Book Now</button>
     </div>
-    <div id="m5-3">
+    <div id="m5-3" data-aos="zoom-in-left">
         <img src="images/daysinn.jpg" alt="img"><br><br>
         <h2>Days Inn by Wyn</h2><br>
         <h5>Days Inn by Wyndham hotel </h5><br><br>
         <button class="button2">Book Now</button>
     </div>
-    <div id="m5-4">     
+    <div id="m5-4" data-aos="zoom-in-left">     
           <img src="images/daysinn.jpg" alt="img"><br><br>
         <h2>Days Inn by Wyn</h2><br>
         <h5>Days Inn by Wyndham hotel </h5><br><br>
@@ -208,21 +213,21 @@
 <h4 style="text-align: right; text-decoration: underline; cursor: pointer; color: #F38E6F; margin-right: 60px; font-family: 'poppins'; margin-top: 0px; margin-bottom: 20px;" id="viewall">View All</h4>
 
 <div id="main7">
-    <div id="m7-1">
+    <div id="m7-1" data-aos="zoom-in-left">
         <img src="images/multiplecar.jpg" alt="img">
         <h1>Why Books Your Car Parking</h1>
         <p>Online car parking can be a game-changer for anyone planning a trip, whether it's for business or pleasure</p>
     </div>
 
 
-    <div id="m7-2">
+    <div id="m7-2" data-aos="zoom-in-left">
         <img src="images/parkingapp.jpeg" alt="img">
         <h1>Why Books Your Car Parking</h1>
         <p>Online car parking can be a game-changer for anyone planning a trip, whether it's for business or pleasure</p>
     </div>
 
 
-    <div id="m7-3">
+    <div id="m7-3" data-aos="zoom-in-left">
         <img src="images/multiplecar.jpg" alt="img">
         <h1>Why Books Your Car Parking</h1>
         <p>Online car parking can be a game-changer for anyone planning a trip, whether it's for business or pleasure</p>
@@ -230,10 +235,10 @@
 </div>
 
 
-<div id="main8">
-    <h1>Partner With Spot Finder</h1>
-    <h5>Grow your business by listing your service with us.</h5>
-    <button>Become A Partner</button>
+<div id="main8" data-aos="flip-up">
+    <h1 data-aos="flip-up">Partner With Spot Finder</h1>
+    <h5 data-aos="flip-up">Grow your business by listing your service with us.</h5>
+    <button data-aos="flip-up">Become A Partner</button>
 </div>
 
 
@@ -249,7 +254,7 @@
 
 <br><br><br><br>
 <center></center>
-<div id="main9">
+<!-- <div id="main9">
     <table border="0" cellpadding="9" cellspacing="50" style="margin-left: 40px; border-top: 2px solid red; width: 100%;">
         <tr>
             <th style="color: red;">About Us</th>
@@ -277,13 +282,50 @@
             <td style="color: #343538a9;"><a href="https://www.facebook.com/Prince.Ahmad.107" target="_blank"><img src="images/facebook.png" alt="img" style="width: 30px; height: 30px; border-radius: 20px;"></a><a href="https://www.instagram.com/ahmed_here_990/" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/insta.jpg" alt="img" style="width: 30px; height: 30px; border-radius: 20px;"> </a><a href="https://github.com/MuhammadAhmadAslam" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/github.png" alt="img" style="width: 30px; height: 30px; border-radius: 20px;"></a></td>
         </tr>
     </table>
-</div>
+</div> -->
 
+
+<footer class="row" data-aos="fade-down"
+data-aos-easing="linear"
+data-aos-duration="500">
+    <div class="col-lg-3 col-md-6 col-sm-12">
+        <h1>About Us</h1>
+        <h6>As Travelers and preplanners on a trip, we hate not being able to find parking on a reliable site. We decided to solve this by starting in house!</h6>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12">
+        <h1>Company</h1>
+        <ul>
+            <li id="footer-li">Privacy Policy</li>
+            <li id="footer-li">Cancellation Policy</li>
+            <li id="footer-li">Terms And Condition</li>
+        </ul>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12">
+        <h1>Contact Info</h1>
+        <ul>
+            <li id="footer-li" style=" margin-left: -20px; margin-top: 20px;"><i class="fa-solid fa-envelope" style="color: #000000; padding-right: 10px; font-size: 20px;"></i>prince1ahmed111@gmail.com</li>
+            <li id="footer-li" style=" margin-left: -20px; margin-top: 20px;"><i class="fa-solid fa-phone" style="color: #000000; padding-right: 10px; font-size: 20px;"></i>03362905320</li>
+            <li id="footer-li" style=" margin-left: -20px; margin-top: 20px;"><i class="fa-solid fa-location-dot" style="color: #000000; padding-right: 10px; font-size: 20px;"></i>ABC Road Undefined</li>
+            <li id="footer-li" style=" margin-left: -20px; margin-top: 20px;"><i class="fa-solid fa-comment" style="color: #000000; padding-right: 10px; font-size: 20px;"></i>Contact Support</li>
+        </ul>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12">
+        <h1 style="margin-left: 40px;">Payment Accepted</h1>
+        <img src="images/payment.png" alt="img" style="width: 90px; height: 40px; margin-left: 40px; margin-top: 40px;">
+
+    </div>
+</footer>
 
 <h3 id="footer">All rights reserved © 2023 - SpotFinder by Travel Life LLC • Made with ❤️</h3>
 
 
 <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    AOS.init();
+  </script>
 </center>
 </body>
 </html>

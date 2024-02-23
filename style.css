@@ -983,4 +983,27 @@ table a{
   }
 
 
-
+footer{
+    /* background-color: rebeccapurple; */
+    padding-bottom: 70px;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+ul{
+    list-style-type: none;
+}
+ footer li{
+    color: black;
+    margin-top: 30px !important;
+}
+footer h1{
+    color: rgba(255, 0, 0, 0.596);
+}
+footer h6{
+    color: black;
+}
+#footer-li:hover{
+    border-bottom: 1px solid red !important;
+    padding-left: 10px;
+}
